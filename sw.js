@@ -1,5 +1,5 @@
 const PREFIX='pocket-practice:'+self.registration.scope+':';
-const CACHE=PREFIX+'935a16511bb8';
+const CACHE=PREFIX+'8c6c73c5da8f';
 const ASSETS=["./", "./index.html", "./style.css", "./trainer.js", "./coach.js", "./app.js", "./pwa.js", "./manifest.webmanifest", "./icons/icon-192.png", "./icons/icon-512.png", "./icons/icon-maskable.png", "./icons/apple-touch-icon.png"];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS))));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith(PREFIX)&&key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));
