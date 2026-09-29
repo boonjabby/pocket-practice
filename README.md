@@ -2,7 +2,7 @@
 
 A phone-friendly, offline-capable companion for real-table blackball practice.
 
-Includes ten progressive drills, fifteen-shot sessions, position goals and observation-led shot review. Default setup: an 8-foot table, 2-inch balls and rounded pockets.
+Includes eleven progressive drills, fifteen-shot sessions, position goals, marked cue-ball finishes, variable cut layouts and observation-led shot review. Default setup: an 8-foot table, 2-inch balls and rounded pockets.
 
 ## Use
 
